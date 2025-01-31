@@ -3,6 +3,7 @@
     min-height: 100vh;
     padding-bottom:15vh ;
     position: relative;
+    
 }
 
 .main .nav{
@@ -42,4 +43,11 @@
     gap: 15px;
     padding: 20px;
 }
-
+.main .card{
+    height: 200px;
+    padding: 15px;
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
