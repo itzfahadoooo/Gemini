@@ -4,8 +4,8 @@ import { Context } from "./contextProvider";
 
 const ContextProvider = (props) => {
     const [input, setInput] = useState("");
-    const [reecentPrompt, setRecentPrompt] = useState("");
-
+    const [recentPrompt, setRecentPrompt] = useState("");
+    const[prevPrompts, setPrevPrompts] = useState("");
 
 
 
