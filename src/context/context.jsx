@@ -15,6 +15,10 @@ const ContextProvider = (props) => {
         setResultData("");
         setLoading(true);
         setShowResult(true);
+        const response = await run(input);
+        setResultData(response);
+        setLoading(false);
+        setInput("");
     await run(input);
   };
 
