@@ -27,8 +27,8 @@ const ContextProvider = (props) => {
         newResponse += "<b>" + responseArray[i] + "</b>";
       }
     }
-
-    setResultData(newResponse);
+    let newResponse2=newResponse.split("*").join("</br>")
+    setResultData(newResponse2);
     setLoading(false);
     setInput("");
     await run(input);
