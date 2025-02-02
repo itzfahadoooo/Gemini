@@ -116,3 +116,13 @@
 .result::-webkit-scrollbar{
     display: none;
 }
+.result-title{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.result img{
+    width: 40px;
+    border-radius: 50%;
+}
